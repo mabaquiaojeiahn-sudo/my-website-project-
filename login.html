@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Login | Jeiahn's Website</title><link rel="stylesheet" href="login.style.css"></head>
+<body><main class="login-card"><div style="font-size:42px;text-align:center">🌼 🦋 🌼</div>
+<h1 id="formTitle">Welcome Back</h1><p class="sub">Enter your details to visit my website.</p>
+<form id="authForm">
+<label for="username">Username</label><input id="username" type="text" autocomplete="username" required>
+<label for="password">Password</label><input id="password" type="password" autocomplete="current-password" minlength="4" required>
+<div class="show"><input type="checkbox" id="showPassword"><label for="showPassword" style="margin:0">Show password</label></div>
+<div id="confirmWrap" hidden><label for="confirmPassword">Confirm Password</label><input id="confirmPassword" type="password" minlength="4" autocomplete="new-password"></div>
+<button id="authButton" type="submit">Login</button><p id="errorMessage" aria-live="polite"></p>
+</form><p class="switch" id="toggleText">New here? <a href="#" id="toggleMode">Create an account</a></p>
+<p class="sub" style="font-size:12px;margin-top:20px">School project demo only. Do not use a real or sensitive password.</p>
+</main><script src="script.js"></script></body></html>

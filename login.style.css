@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800&family=Playfair+Display:wght@700&display=swap');
+*{box-sizing:border-box}
+body{margin:0;min-height:100vh;display:grid;place-items:center;padding:20px;font-family:Nunito,sans-serif;color:#5d4a16;background:linear-gradient(135deg,#fffef7,#fff0a9,#fff)}
+.login-card{width:min(420px,100%);padding:34px;background:#ffffffed;border:1px solid #eedb8c;border-radius:25px;box-shadow:0 18px 45px #98761c26;animation:pop .65s ease both}
+h1{text-align:center;font:700 36px 'Playfair Display',serif;color:#b58b16;margin:0 0 8px}
+.sub{text-align:center;margin:0 0 25px;color:#89712e}
+label{display:block;font-weight:800;margin:13px 0 6px}
+input{width:100%;padding:13px;border:1px solid #dfcb7d;border-radius:12px;font:inherit}
+button{width:100%;padding:13px;margin-top:20px;border:0;border-radius:25px;background:#e9c64f;color:#604700;font:800 16px Nunito;cursor:pointer}
+button:hover{background:#f4dc82}
+.switch{text-align:center;margin-top:18px}.switch a{color:#96720d;font-weight:800}
+#errorMessage{color:#a13a22;min-height:20px;text-align:center}
+.show{display:flex;align-items:center;gap:8px;margin-top:12px}.show input{width:auto}
+@keyframes pop{from{opacity:0;transform:scale(.9) translateY(20px)}to{opacity:1;transform:scale(1) translateY(0)}}
